@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+
+    padding: 10px 0;
+}
+
+.credits__link {
+    text-decoration: none;
+}
+
+.credits__link:hover {
+    text-decoration: underline;
+}

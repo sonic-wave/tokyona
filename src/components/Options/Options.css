@@ -1,0 +1,16 @@
+.options {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 40px;
+}
+
+.options__title {
+    font-size: 38px;
+}
+
+.options__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
