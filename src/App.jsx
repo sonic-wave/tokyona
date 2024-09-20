@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <Router basename="/">
+    <Router basename="/tokyona">
       <Routes>
         <Route path="/" element={<MainPage />} />
         {/* <Route path="/circle/:id" element={<CirclePage />} />  */}
