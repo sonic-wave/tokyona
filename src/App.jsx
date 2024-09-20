@@ -1,19 +1,19 @@
 import './App.css'
-import About from './components/About/About'
-import Contacts from './components/Contacts/Contacts'
-import Footer from './components/Footer/Footer'
-import Header from './components/Header/Header'
-import Options from './components/Options/Options'
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import MainPage from './pages/MainPage/MainPage';
+import TourPage from './pages/TourPage/TourPage';
 
 function App() {
 
   return (
     <>
-    <Header />
-    <About />
-    <Options />
-    <Contacts />
-    <Footer />
+    <Router basename="/">
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        {/* <Route path="/circle/:id" element={<CirclePage />} />  */}
+        <Route path="/tours" element={<TourPage />} />
+      </Routes>
+    </Router>
     </>
   )
 }

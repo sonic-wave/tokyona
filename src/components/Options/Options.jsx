@@ -11,11 +11,12 @@ const OPTIONS_INFO = [
     title: "Classic Tour",
     description:
       "The best option if you are first in Japan and want to dive in with all must-see places",
+    link: "/tours",
   },
   {
     img: group_tour,
-    title: "Group Tour",
-    description: "For group of more than 3 people we have special offer",
+    title: "Excursions",
+    description: "If you want to visit specific place and learn it's history",
   },
   {
     img: individual_tour,
@@ -36,6 +37,7 @@ const Options = () => {
             img={item.img}
             title={item.title}
             description={item.description}
+            link={item.link}
           />
         ))}
       </div>

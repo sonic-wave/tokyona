@@ -19,6 +19,12 @@
   font-weight: 400;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 38px;
 }
