@@ -17,6 +17,7 @@ const OPTIONS_INFO = [
     img: group_tour,
     title: "Excursions",
     description: "If you want to visit specific place and learn it's history",
+    link: "/excursions"
   },
   {
     img: individual_tour,

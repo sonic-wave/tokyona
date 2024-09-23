@@ -1,0 +1,22 @@
+.excursion__section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.excursion__imgs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+} 
+
+.excursion__img {
+    width: 300px;
+    height: 400px;
+
+    border-radius: 10px;
+}
+
+.excursion__img:hover {
+    transform: scale(1.5);
+}

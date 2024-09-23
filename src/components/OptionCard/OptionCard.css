@@ -1,4 +1,7 @@
 .card {
+    display: flex;
+    flex-direction: column;
+
     width: 100%;
 
     border-radius: 10px;
@@ -8,17 +11,44 @@
 .card:hover {
     cursor: pointer;
     transform: scale(1.01);
+    outline: 1px solid cornflowerblue;
+}
+
+.card:hover .card__link {
+    transition: 100ms;
+    background-color: rgb(60, 127, 252);
 }
 
 .card__img {
     position: relative;
 
     width: 100%;
+    height: 500px;
     object-fit: cover;
 
     border-radius: 10px 10px 0 0;
 }
 
 .card__info {
+    display: flex;
+    flex-direction: column;
+
+    height: 135px;
+
     padding: 0 5px 10px 5px;
+}
+
+.card__link {    
+    padding: 3px 10px 5px 10px;
+
+    color: #fff;
+    text-decoration: none;
+
+    border-radius: 0 0 10px 10px;
+    background-color: cornflowerblue;
+}
+
+.card__link:hover {
+    background-color: rgb(60, 127, 252);
+    transition: 100ms;
 }

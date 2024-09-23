@@ -1,6 +1,6 @@
 import React from "react";
 import "./Logo.css";
-import logoImg from "../../assets/images/icons/japan_flag.svg";
+import logoImg from "../../assets/images/logo_1.png";
 import { Link } from "react-router-dom";
 
 const Logo = () => {
