@@ -18,7 +18,7 @@
 }
 
 .excursion__img:hover {
-    /* transform: scale(1.5); */
+    transform: scale(1.5);
     transition: 200ms;
 }
 
