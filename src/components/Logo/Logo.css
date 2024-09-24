@@ -21,3 +21,9 @@
     font-weight: 700;
     line-height: 40px;
 }
+
+@media (max-width: 415px) {
+    .logo__text {
+        display: none;
+    }
+}
