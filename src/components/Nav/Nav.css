@@ -29,3 +29,9 @@
     background-color: #000000c9;
     transition: 100ms;
 }
+
+@media (max-width: 767px) {
+    .nav {
+        display: none;
+    }
+}

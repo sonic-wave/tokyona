@@ -3,6 +3,7 @@ import "./Header.css";
 import Logo from "../Logo/Logo";
 import Nav from "../Nav/Nav";
 import Social from "../Social/Social";
+import BurgerMenu from "../BurgerMenu/BurgerMenu";
 
 const Header = () => {
   return (
@@ -10,6 +11,7 @@ const Header = () => {
       <Logo />
       <Social />
       <Nav />
+      <BurgerMenu />
     </header>
   );
 };

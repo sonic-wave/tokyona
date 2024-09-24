@@ -1,0 +1,24 @@
+.burger__container {
+    display: none;
+
+    width: 24px;
+    height: 24px;
+}
+
+.burger__button {
+    width: 24px;
+    height: 24px;
+
+    background-color: transparent;
+    background-image: url(../../assets/images/icons/burger_menu.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .burger__container {
+        display: flex;
+    }
+}
