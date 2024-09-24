@@ -52,3 +52,9 @@
     background-color: rgb(60, 127, 252);
     transition: 100ms;
 }
+
+@media (max-width: 768px) {
+    .card:nth-of-type(1) .card__img {
+        object-position: bottom;
+    }
+}
