@@ -94,6 +94,10 @@
 }
 
 @media (max-width: 400px) {
+    .tour__card {
+        display: block;
+    }
+
     .tour__img {
         height: 300px;
     }
