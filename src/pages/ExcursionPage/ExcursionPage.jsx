@@ -19,12 +19,14 @@ const ExcursionPage = () => {
   return (
     <>
       <Header />
-      <Excursion
-        fullImgs={excursion.fullImgs}
-        title={excursion.title}
-        fullDescription={excursion.fullDescription}
-      />
-      <Contacts />
+      <main className="main">
+        <Excursion
+          fullImgs={excursion.fullImgs}
+          title={excursion.title}
+          fullDescription={excursion.fullDescription}
+        />
+        <Contacts />
+      </main>
       <Footer />
     </>
   );

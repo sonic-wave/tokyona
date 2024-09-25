@@ -8,8 +8,10 @@ const ExcursionsPage = () => {
   return (
     <>
       <Header />
+      <main className="main">
         <Excursions />
         <Contacts />
+      </main>
       <Footer />
     </>
   );

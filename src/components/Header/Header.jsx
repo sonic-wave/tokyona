@@ -8,10 +8,12 @@ import BurgerMenu from "../BurgerMenu/BurgerMenu";
 const Header = () => {
   return (
     <header className="header">
-      <Logo />
-      <Social />
-      <Nav />
-      <BurgerMenu />
+      <div className="header__content">
+        <Logo />
+        <Social />
+        <Nav />
+        <BurgerMenu />
+      </div>
     </header>
   );
 };

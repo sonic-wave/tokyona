@@ -1,18 +1,20 @@
-import React from 'react'
-import Header from '../../components/Header/Header'
-import Footer from '../../components/Footer/Footer'
-import Tour from '../../components/Tour/Tour'
-import Contacts from '../../components/Contacts/Contacts'
+import React from "react";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
+import Tour from "../../components/Tour/Tour";
+import Contacts from "../../components/Contacts/Contacts";
 
 const TourPage = () => {
   return (
     <>
-        <Header />
+      <Header />
+      <main className="main">
         <Tour />
         <Contacts />
-        <Footer />
+      </main>
+      <Footer />
     </>
-  )
-}
+  );
+};
 
 export default TourPage;

@@ -9,9 +9,11 @@ const MainPage = () => {
   return (
     <>
       <Header />
-      <About />
-      <Options />
-      <Contacts />
+      <main className="main">
+        <About />
+        <Options />
+        <Contacts />
+      </main>
       <Footer />
     </>
   );
