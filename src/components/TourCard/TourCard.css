@@ -67,7 +67,9 @@
 @media (max-width: 767px) {
     .tour__card {
         grid-template-columns: 1fr;
-        height: auto;
+        gap: 10px;
+
+        height: 100%;
     }
 
     .tour__img {
