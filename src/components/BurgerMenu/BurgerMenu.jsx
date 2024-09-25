@@ -18,7 +18,7 @@ const BurgerMenu = () => {
       </div>
       {isMenuActive && (
         <div className="burger__menuContainer">
-          <div className="overlay" onClick={handleMenuToggle}></div>
+          {/* <div className="overlay" onClick={handleMenuToggle}></div> */}
           <div className="burger__menu">
             <div className="menu__titleContainer">
               <h3 className="menu__title">Menu</h3>
@@ -35,7 +35,11 @@ const BurgerMenu = () => {
               />
             </a> */}
             <div className="burger__links">
-              <Link className="burger__link" to={"/"}>
+              <Link
+                className="burger__link"
+                to={"/"}
+                onClick={handleMenuToggle}
+              >
                 Home
               </Link>
               <a
