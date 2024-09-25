@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-} 
+}
 
 .excursion__img {
     width: 300px;
@@ -35,8 +35,14 @@
     }
 }
 
+@media (max-width: 768px) {
+    .excursion__img:hover {
+        transform: none;
+    }
+}
+
 @media (max-width: 767px) {
-    
+
     .excursion__imgs {
         grid-template-columns: 1fr;
         order: 2;

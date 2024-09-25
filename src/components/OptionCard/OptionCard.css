@@ -57,6 +57,10 @@
     .card:nth-of-type(1) .card__img {
         object-position: bottom;
     }
+
+    .card:hover {
+        transform: none;
+    }
 }
 
 @media (max-width: 400px) {
