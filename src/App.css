@@ -32,3 +32,13 @@ h3 {
 section {
   margin-bottom: 40px;
 }
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 38px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+}

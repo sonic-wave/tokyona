@@ -34,3 +34,15 @@
         object-fit: cover;
     }
 }
+
+@media (max-width: 767px) {
+    
+    .excursion__imgs {
+        grid-template-columns: 1fr;
+        order: 2;
+    }
+
+    .excursion__img {
+        height: 400px;
+    }
+}
