@@ -17,13 +17,14 @@ const OPTIONS_INFO = [
     img: group_tour,
     title: "Excursions",
     description: "If you want to visit specific place and learn it's history",
-    link: "/excursions"
+    link: "/excursions",
   },
   {
     img: individual_tour,
     title: "Individual Tour",
     description:
       "Individual tour that is created based on your wishes and preferences",
+    link: "/individual_tour",
   },
 ];
 

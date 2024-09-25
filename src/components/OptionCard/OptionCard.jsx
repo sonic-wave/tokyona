@@ -18,9 +18,9 @@ const OptionCard = ({ id, img, title, description, link, titleSize }) => {
     <article className="card" onClick={handleOptionCardClick}>
       <img className="card__img" src={img} alt="option_image" />
       <div className="card__info">
-        <h3 className="card__title" style={{ fontSize: titleSize }}>
+        <h4 className="card__title" style={{ fontSize: titleSize }}>
           {title}
-        </h3>
+        </h4>
         {description && <p className="card__description">{description}</p>}
       </div>
       <Link to={link} className="card__link">

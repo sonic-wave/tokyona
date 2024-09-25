@@ -18,7 +18,8 @@
 }
 
 .about__title {
-    margin-top: -40px;
+    margin-top: -70px;
+
     font-size: 48px;
 }
 
@@ -44,7 +45,7 @@
     background-color: #30c1ff;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 488px) {
     .about__title {
         font-size: 40px;
     }

@@ -14,7 +14,7 @@ const Excursion = ({ fullImgs, title, fullDescription }) => {
           />
         ))}
       </div>
-      <h3 className="excursion__title">{title}</h3>
+      <h4 className="excursion__title">{title}</h4>
       <p className="excursion__description">{fullDescription}</p>
     </section>
   );

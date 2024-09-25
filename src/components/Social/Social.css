@@ -22,8 +22,8 @@
 }
 
 .social__link:nth-child(1) .social__img {
-    width: 30px;
-    height: 30px;
+    width: 29px;
+    height: 29px;
 }
 
 @media (max-width: 375px) {
