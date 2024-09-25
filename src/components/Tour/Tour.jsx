@@ -165,7 +165,7 @@ const TOUR_INFO = [
   },
   {
     title: "Departure",
-    description: <>Check out and transfer to the airport.</>,
+    description: "Check out and transfer to the airport.",
     img: day_11_img,
   },
 ];
