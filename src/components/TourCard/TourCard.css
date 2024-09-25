@@ -96,6 +96,19 @@
 @media (max-width: 400px) {
     .tour__card {
         display: block;
+        margin-bottom: 30px;
+    }
+
+    .tour__card:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .tour__info {
+        margin-bottom: 10px;
+    }
+
+    .info__title {
+        margin-bottom: 10px;
     }
 
     .tour__img {

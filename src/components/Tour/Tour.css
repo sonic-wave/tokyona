@@ -10,3 +10,9 @@
         grid-gap: 30px;
     }
 }
+
+@media (max-width: 400px) {
+    .tour__container {
+        display: block;
+    }
+}
