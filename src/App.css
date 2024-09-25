@@ -42,6 +42,14 @@ section {
   text-align: center;
 }
 
+@media (max-width: 767px) {
+  img {
+      pointer-events: none;
+      user-select: none;
+      -webkit-user-drag: none;
+  }
+}
+
 @media (max-width: 400px) {
   h1 {
     font-size: 38px;
