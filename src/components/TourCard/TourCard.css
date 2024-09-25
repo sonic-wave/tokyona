@@ -68,7 +68,6 @@
     .tour__card {
         grid-template-columns: 1fr;
         gap: 10px;
-        grid-gap: 10px;
 
         height: 100%;
     }
