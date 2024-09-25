@@ -93,6 +93,11 @@
 }
 
 @media (max-width: 400px) {
+    .tour__card {
+        display: flex;
+        flex-direction: column;
+    }
+    
     .tour__img {
         height: 300px;
     }
