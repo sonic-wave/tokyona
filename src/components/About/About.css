@@ -13,7 +13,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
     border-radius: 10px;
 }
 
@@ -26,8 +25,8 @@
 .about__paragraph {
     margin-bottom: 10px;
 
-    color: #0b002f;
     font-size: 18px;
+    color: #0b002f;
 }
 
 .about__btn {

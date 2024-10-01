@@ -16,8 +16,6 @@ import excursion_3_photo_3 from "../../assets/images/excursions/excursion_3/phot
 import excursion_3_photo_4 from "../../assets/images/excursions/excursion_3/photo_4.jpg";
 import excursion_3_photo_5 from "../../assets/images/excursions/excursion_3/photo_5.jpg";
 
-import { useParams } from "react-router-dom";
-
 export const EXCURSIONS_INFO = [
   {
     img: excursion_1_photo_1,

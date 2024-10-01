@@ -1,4 +1,3 @@
-// ExcursionPage.jsx
 import React from "react";
 import Header from "../../components/Header/Header";
 import Excursion from "../../components/Excursion/Excursion";

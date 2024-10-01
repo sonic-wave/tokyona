@@ -14,7 +14,8 @@
     border-radius: 5px;
 }
 
-.contact__email:focus, .contact__message:focus {
+.contact__email:focus,
+.contact__message:focus {
     outline: 1px solid cornflowerblue;
 }
 

@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import burgerIcon from "../../assets/images/icons/burger_menu.svg";
 import "./BurgerMenu.css";
-import { Link } from "react-router-dom";
-import Logo from "../Logo/Logo";
+import Nav from "../Nav/Nav";
 
 const BurgerMenu = () => {
   const [isMenuActive, setIsMenuActive] = useState(false);
@@ -18,7 +16,6 @@ const BurgerMenu = () => {
       </div>
       {isMenuActive && (
         <div className="burger__menuContainer">
-          {/* <div className="overlay" onClick={handleMenuToggle}></div> */}
           <div className="burger__menu">
             <div className="menu__titleContainer">
               <h3 className="menu__title">Menu</h3>
@@ -27,34 +24,8 @@ const BurgerMenu = () => {
                 onClick={handleMenuToggle}
               ></button>
             </div>
-            {/* <a className="menu__logo" href="/">
-              <img
-                className="menu__logoImg"
-                src="/src/assets/images/logo-gray.svg"
-                alt="лого"
-              />
-            </a> */}
-            <div className="burger__links">
-              <Link
-                className="burger__link"
-                to={"/"}
-                onClick={handleMenuToggle}
-              >
-                Home
-              </Link>
-              <a
-                className="burger__link"
-                href="#contacts__id"
-                onClick={handleMenuToggle}
-              >
-                Contacts
-              </a>
-              <Link className="burger__link" to={"/excursions"}>
-                Excursions
-              </Link>
-              <Link className="burger__link" to={"/tours"}>
-                Tour
-              </Link>
+            <div className="burger__links" onClick={handleMenuToggle}>
+              <Nav />
             </div>
           </div>
         </div>

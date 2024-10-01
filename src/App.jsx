@@ -5,14 +5,15 @@ import TourPage from "./pages/TourPage/TourPage";
 import ExcursionsPage from "./pages/ExcursionsPage/ExcursionsPage";
 import ExcursionPage from "./pages/ExcursionPage/ExcursionPage";
 import IndividualTourPage from "./pages/IndividualTourPage/IndividualTourPage";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
     <>
       <Router basename="/tokyona">
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<MainPage />} />
-          {/* <Route path="/circle/:id" element={<CirclePage />} />  */}
           <Route path="/tours" element={<TourPage />} />
           <Route path="/excursions" element={<ExcursionsPage />} />
           <Route path="/excursions/:id" element={<ExcursionPage />} />

@@ -9,7 +9,6 @@ const About = () => {
         Experience an unforgettable journey that will enrich your life and
         immerse you in Japanese culture.
       </p>
-      {/* <a className="about__btn">Choose your journey</a> */}
     </section>
   );
 };
