@@ -2,7 +2,7 @@ import React from "react";
 import "./Options.css";
 import classic_tour from "../../assets/images/classic_tour.jpg";
 import group_tour from "../../assets/images/group_tour.jpg";
-import individual_tour from "../../assets/images/individual_tour.jpg";
+import custom_tours from "../../assets/images/custom_tours.jpg";
 import OptionCard from "../OptionCard/OptionCard";
 
 const OPTIONS_INFO = [
@@ -20,11 +20,11 @@ const OPTIONS_INFO = [
     link: "/excursions",
   },
   {
-    img: individual_tour,
-    title: "Individual Tour",
+    img: custom_tours,
+    title: "Custom Tours",
     description:
-      "Individual tour that is created based on your wishes and preferences",
-    link: "/individual_tour",
+      "Custom tours that are created based on your wishes and preferences",
+    link: "/custom_tours",
   },
 ];
 

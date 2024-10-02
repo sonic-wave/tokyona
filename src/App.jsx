@@ -4,7 +4,7 @@ import MainPage from "./pages/MainPage/MainPage";
 import TourPage from "./pages/TourPage/TourPage";
 import ExcursionsPage from "./pages/ExcursionsPage/ExcursionsPage";
 import ExcursionPage from "./pages/ExcursionPage/ExcursionPage";
-import IndividualTourPage from "./pages/IndividualTourPage/IndividualTourPage";
+import CustomToursPage from "./pages/CustomToursPage/CustomToursPage";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
           <Route path="/tours" element={<TourPage />} />
           <Route path="/excursions" element={<ExcursionsPage />} />
           <Route path="/excursions/:id" element={<ExcursionPage />} />
-          <Route path="/individual_tour" element={<IndividualTourPage />} />
+          <Route path="/custom_tours" element={<CustomToursPage />} />
         </Routes>
       </Router>
     </>
