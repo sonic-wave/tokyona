@@ -18,7 +18,6 @@ const CustomToursPage = () => {
           individual preferences and passions. Reach out to us, and together
           we’ll create the perfect itinerary just for you
         </p>
-        <Contacts />
       </main>
       <Footer />
     </>

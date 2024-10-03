@@ -10,7 +10,6 @@ const TourPage = () => {
       <Header />
       <main className="main">
         <Tour />
-        <Contacts />
       </main>
       <Footer />
     </>

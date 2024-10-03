@@ -24,7 +24,6 @@ const ExcursionPage = () => {
           title={excursion.title}
           fullDescription={excursion.fullDescription}
         />
-        <Contacts />
       </main>
       <Footer />
     </>

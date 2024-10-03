@@ -10,7 +10,6 @@ const ExcursionsPage = () => {
       <Header />
       <main className="main">
         <Excursions />
-        <Contacts />
       </main>
       <Footer />
     </>
