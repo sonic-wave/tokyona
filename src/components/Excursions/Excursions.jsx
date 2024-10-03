@@ -15,6 +15,7 @@ import excursion_3_photo_2 from "../../assets/images/excursions/excursion_3/phot
 import excursion_3_photo_3 from "../../assets/images/excursions/excursion_3/photo_3.jpg";
 import excursion_3_photo_4 from "../../assets/images/excursions/excursion_3/photo_4.jpg";
 import excursion_3_photo_5 from "../../assets/images/excursions/excursion_3/photo_5.jpg";
+import excursion_3_photo_6 from "../../assets/images/excursions/excursion_3/photo_6.jpg";
 
 export const EXCURSIONS_INFO = [
   {
@@ -85,6 +86,7 @@ export const EXCURSIONS_INFO = [
       excursion_3_photo_3,
       excursion_3_photo_4,
       excursion_3_photo_5,
+      excursion_3_photo_6
     ],
     title: (
       <>
