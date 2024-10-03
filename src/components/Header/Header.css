@@ -33,9 +33,9 @@
     /* padding: 2px 0; */
 }
 
-.header__column:nth-last-of-type(1):after {
+.header__column:nth-last-of-type(2):after {
     position: absolute;
-    top: 0;
+    top: 50px;
     left: 50%;
     
     width: 100vw; 
