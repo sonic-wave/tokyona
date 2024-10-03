@@ -14,11 +14,31 @@ function ContactForm() {
       action="https://formspree.io/f/mldryqbw"
       method="POST"
     >
+      <label htmlFor="name">Your Name:</label>
+      <input
+        className="contact__name"
+        id="name"
+        type="text"
+        name="name"
+        required
+      />
+      <ValidationError prefix="Name" field="name" errors={state.errors} />
       <label htmlFor="email">Submit your email:</label>
-      <input className="contact__email" id="email" type="email" name="email" />
+      <input
+        className="contact__email"
+        id="email"
+        type="email"
+        name="email"
+        required
+      />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
       <label htmlFor="email">Tell us what do you want to see in Japan?</label>
-      <textarea className="contact__message" id="message" name="message" />
+      <textarea
+        className="contact__message"
+        id="message"
+        name="message"
+        required
+      />
       <ValidationError prefix="Message" field="message" errors={state.errors} />
       <button
         className="contact__button"

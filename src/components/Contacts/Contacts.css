@@ -9,12 +9,3 @@
 .contacts .social {
     margin: 0;
 }
-
-.contacts__link {
-    color: inherit;
-    text-decoration: none;
-}
-
-.contacts__link:hover {
-    text-decoration: underline;
-}

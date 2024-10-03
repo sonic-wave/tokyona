@@ -1,0 +1,22 @@
+.mail__link {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+}
+
+.mail__link:hover {
+    text-decoration: underline;
+}
+
+.mail__link:hover .mail__img {
+    transform: scale(1.2);
+}
+
+.mail__img {
+    margin-right: 5px;
+}
+
+.mail__img:hover {
+    transform: scale(1.2);
+}

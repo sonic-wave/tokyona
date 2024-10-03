@@ -4,13 +4,17 @@ import Logo from "../Logo/Logo";
 import Nav from "../Nav/Nav";
 import Social from "../Social/Social";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
+import Mail from "../Mail/Mail";
 
 const Header = () => {
   return (
     <header className="header">
-      <div className="header__content">
-        <Logo />
+      <div className="header__column">
+        <Mail />
         <Social />
+      </div>
+      <div className="header__column">
+        <Logo />
         <Nav />
         <BurgerMenu />
       </div>
