@@ -12,7 +12,6 @@ const MainPage = () => {
       <main className="main">
         <About />
         <Options />
-        <Contacts />
       </main>
       <Footer />
     </>

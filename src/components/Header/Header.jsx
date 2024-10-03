@@ -9,11 +9,11 @@ import Mail from "../Mail/Mail";
 const Header = () => {
   return (
     <header className="header">
-      <div className="header__column">
+      <div className="header__row">
         <Mail />
         <Social />
       </div>
-      <div className="header__column">
+      <div className="header__row">
         <Logo />
         <Nav />
         <BurgerMenu />
