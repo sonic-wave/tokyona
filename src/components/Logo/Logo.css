@@ -21,6 +21,11 @@
     line-height: 40px;
 }
 
+footer .logo__img {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
 @media (max-width: 415px) {
     .logo__text {
         display: none;
