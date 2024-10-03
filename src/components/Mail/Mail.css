@@ -16,3 +16,13 @@
 footer .mail__img {
     filter: invert(1) brightness(2);
 }
+
+@media (max-width: 440px) {
+    .mail__img {
+        display: none;
+    }
+
+    footer .mail__img {
+        display: block;
+    }
+}

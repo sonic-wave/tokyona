@@ -21,13 +21,20 @@
     line-height: 40px;
 }
 
-footer .logo__img {
+footer .logo__imgContainer {
+    width: 60px;
+    height: 65px;
+    text-align: center;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 @media (max-width: 415px) {
     .logo__text {
         display: none;
+    }
+
+    .footer .logo__text {
+        display: block;
     }
 }
