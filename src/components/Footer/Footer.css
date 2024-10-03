@@ -22,11 +22,11 @@
 }
 
 .credits__link {
-    text-decoration: none;
+    color: inherit;
 }
 
 .credits__link:hover {
-    text-decoration: underline;
+    color: rgb(60, 127, 252);
 }
 
 .footer__column {
